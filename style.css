@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(10 right top,#e4ffc9, #fdffec);
+    height: 100vh;
+}
+header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 20vh;
+}
+.logo, ul, .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    flex: 1;
+
+}
+ul{
+    display: flex;
+    flex: 2;
+}
+.icons{
+    flex: 1;
+    gap: 30px;
+
+}
+.fa-solid{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+li{
+    list-style: none;
+    margin: 30px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+
+    
+}
+.active{
+    color:green;
+}
+a:hover{
+    color: #84b74d;
+}
+.logo{
+    font-family: 'Lemon', cursive;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+.logo::before{
+    content:"" ;
+    background-color: #84b74d;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    position: absolute;
+    z-index: -1;
+}
+.logo::after{
+    content: "eals";
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+
+}
+.login, .delivery, .dine{
+    padding: 12px 30px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #84b74d;
+    font-size: 18px;
+
+}
+.login:hover,.delivery:hover{
+    background-color: #709746;
+}
+section{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+
+}
+.dish img{
+    height: 70vh;
+}
+.content{
+    flex:1 ;
+    margin-left: 50px;
+}
+.dish{
+    flex:1 ;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Lemon',cursive;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Lemon',cursive;
+    margin-bottom: 20px;
+}
+
+span{
+    color: #84b74d;
+}
+p{
+    font-size:18px ;
+    color: gray;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-fluid{
+    background-color:#84b74d
+}
+.buttons{
+    display: flex;
+    gap: 15px;
+}
